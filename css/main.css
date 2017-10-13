@@ -1,0 +1,236 @@
+/*____________________________fonts*/
+/*_____________________END____fonts*/
+/*_________________float and direction*/
+/*_______________END__float and direction*/
+/*__________________________________height_*/
+/*_______________________________End___height_*/
+/*________________________________________background_gradient*/
+/*________________________________________background_gradient*/
+/*_________________________________________shadow_images*/
+body {
+  margin: 0px; }
+
+*:not(i) {
+  font: normal 12px/1.8em Arial, Helvetica, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+input, select {
+  height: 26px; }
+
+.box {
+  background-color: #ffffff;
+  border: 1px solid #dfdede;
+  margin: 0 0 12px;
+  padding: 2px; }
+
+.green {
+  color: #53A95E; }
+
+.inputContainer.withIcon input, .inputContainer.withIcon select {
+  width: 85% !important;
+  border-right: none;
+  border-top: 1px solid #b5b5b5;
+  border-left: 1px solid #b5b5b5;
+  border-bottom: 1px solid #b5b5b5;
+  outline: none; }
+.inputContainer.withIcon .icon {
+  display: block;
+  width: 15%;
+  float: right;
+  border: 1px solid #b5b5b5;
+  box-sizing: border-box;
+  height: 26px;
+  text-align: center;
+  padding-top: 7px;
+  border-left: none; }
+
+/*______________________parts*/
+.mainHeaderContainer {
+  height: 75px;
+  background: url(../images/header_bg.jpg); }
+  .mainHeaderContainer .mainHeaderInnerContainer {
+    width: 80%;
+    margin: 0px 0%; }
+    .mainHeaderContainer .mainHeaderInnerContainer #mainLogoContainer h2 {
+      display: block;
+      float: left;
+      color: #fff;
+      font-size: 36px;
+      margin: 10px 0px 0px 0px; }
+
+.tabContainer {
+  display: flex; }
+  .tabContainer .tab {
+    width: 50%;
+    cursor: pointer;
+    float: left; }
+    .tabContainer .tab label {
+      padding: 13px 0px;
+      text-align: center;
+      display: block; }
+    .tabContainer .tab input {
+      display: None; }
+  .tabContainer .tab.active {
+    background: #f9f6f1; }
+
+.addFreeTimeFormContainer {
+  padding: 10px;
+  margin: 0px 20px; }
+  .addFreeTimeFormContainer .addFreeTimeForm .inputContainer {
+    padding: 10px 0px; }
+  .addFreeTimeFormContainer .addFreeTimeForm input {
+    width: 100%;
+    color: #959595;
+    box-sizing: border-box; }
+  .addFreeTimeFormContainer .addFreeTimeForm select {
+    width: 100%;
+    padding: 5px 0px;
+    color: #959595;
+    box-sizing: border-box; }
+  .addFreeTimeFormContainer .addFreeTimeForm textarea {
+    width: 100%;
+    height: 100px;
+    color: #959595;
+    box-sizing: border-box; }
+  .addFreeTimeFormContainer .addFreeTimeForm #inputContainerTime {
+    width: 50%;
+    padding-right: 10px;
+    float: left;
+    box-sizing: border-box; }
+  .addFreeTimeFormContainer .addFreeTimeForm #inputContainerPeriod {
+    width: 50%;
+    float: left; }
+  .addFreeTimeFormContainer .addFreeTimeForm #inputContainerInterval {
+    width: 50%;
+    padding-right: 10px;
+    float: left;
+    box-sizing: border-box; }
+  .addFreeTimeFormContainer .addFreeTimeForm #inputContainerStart {
+    width: 50%;
+    float: left; }
+  .addFreeTimeFormContainer .addFreeTimeForm #inputContainerSubmit button {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 0px;
+    border: none;
+    background-color: #f9f6f1;
+    outline: none; }
+
+.leftContainer {
+  padding: 10px;
+  margin: 0px 20px; }
+
+#scheduleList .listInnerContainer .listItem .smallPost {
+  margin-top: 10px; }
+  #scheduleList .listInnerContainer .listItem .smallPost .postTitle {
+    margin: 0px; }
+    #scheduleList .listInnerContainer .listItem .smallPost .postTitle .phone {
+      float: right; }
+  #scheduleList .listInnerContainer .listItem .smallPost .headerTime {
+    color: #B5B5B3; }
+  #scheduleList .listInnerContainer .listItem .smallPost .postMainImgDiv img {
+    width: 100%; }
+
+#notificationList .oneListNotification h3 {
+  margin: 0px; }
+  #notificationList .oneListNotification h3 .phone {
+    float: right; }
+#notificationList .oneListNotification .headerTime {
+  color: #B5B5B3; }
+#notificationList .oneListNotification .notificationBody p {
+  margin: 0px; }
+
+/*_______________pages */
+.page {
+  background-color: #f3f1f1; }
+  .page:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both; }
+
+.innerPageContainer {
+  padding-top: 40px; }
+
+.pageCenterContent {
+  width: 50%;
+  float: left; }
+  .pageCenterContent .post {
+    display: block; }
+    .pageCenterContent .post header {
+      padding: 5px;
+      background-color: #F9F6F1; }
+      .pageCenterContent .post header .postTitle {
+        margin: 0px;
+        padding: 0px; }
+        .pageCenterContent .post header .postTitle .phone {
+          float: right;
+          color: #53A95E; }
+        .pageCenterContent .post header .postTitle .green {
+          font-weight: bold; }
+      .pageCenterContent .post header .headerTime {
+        color: #B5B5B3; }
+    .pageCenterContent .post section.bostBody {
+      padding: 2px 20px; }
+      .pageCenterContent .post section.bostBody .postMainImgDiv img {
+        width: 100%; }
+      .pageCenterContent .post section.bostBody .addressDiv .address {
+        color: #90908D; }
+        .pageCenterContent .post section.bostBody .addressDiv .address .addressMapLink {
+          color: #53ac80;
+          font-weight: bold;
+          padding: 0px 5px;
+          display: inline-block;
+          border: 1px solid #75b185; }
+    .pageCenterContent .post footer .postButtonsDiv {
+      background-color: #f9f6f1;
+      overflow: hidden;
+      padding: 5px 0px;
+      text-align: center; }
+      .pageCenterContent .post footer .postButtonsDiv .buttonContainer {
+        width: 33.33%;
+        float: left;
+        overflow: hidden; }
+      .pageCenterContent .post footer .postButtonsDiv a {
+        text-decoration: none;
+        border: 1px solid #a0c9ab;
+        display: block;
+        margin: 0px 5px;
+        padding: 0px 0px 0px 5px;
+        color: #61af83;
+        background-color: #fff; }
+    .pageCenterContent .post footer .allCommentsDiv .commentsInnerDiv {
+      background: #f9f6f1;
+      padding: 10px 2px; }
+      .pageCenterContent .post footer .allCommentsDiv .commentsInnerDiv .oneCommentDiv {
+        background: #efefef;
+        margin: 5px 2px;
+        padding: 5px; }
+        .pageCenterContent .post footer .allCommentsDiv .commentsInnerDiv .oneCommentDiv h6 {
+          margin: 0px;
+          padding: 0px;
+          text-align: right;
+          color: #ada7a0; }
+        .pageCenterContent .post footer .allCommentsDiv .commentsInnerDiv .oneCommentDiv p {
+          margin: 0px; }
+        .pageCenterContent .post footer .allCommentsDiv .commentsInnerDiv .oneCommentDiv .increasingTime {
+          text-align: right;
+          color: #ada7a0;
+          display: block; }
+    .pageCenterContent .post footer .allCommentsDiv .postCommentDiv .postCommentForm {
+      margin: 0px; }
+      .pageCenterContent .post footer .allCommentsDiv .postCommentDiv .postCommentForm .postCommentInput {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 0px;
+        padding-left: 5px; }
+
+.pageAside {
+  float: left;
+  width: 25%; }
+
+/*# sourceMappingURL=main.css.map */

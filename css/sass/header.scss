@@ -1,0 +1,24 @@
+.mainHeaderContainer{
+  height:75px;
+  background:url(../images/header_bg.jpg);
+
+  .mainHeaderInnerContainer{
+    width:80%;
+    margin:0px 0%;
+
+    #mainLogoContainer{
+
+      h2{
+        display:block;
+        float:left;
+
+        color: #fff;
+        font-size: 36px;
+        margin:10px 0px 0px 0px;
+      }
+
+    }
+
+
+  }
+}

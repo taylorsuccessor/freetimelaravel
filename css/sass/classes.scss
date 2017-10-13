@@ -1,0 +1,38 @@
+
+.box{
+  background-color:#ffffff;
+  border: 1px solid #dfdede;
+  margin: 0 0 12px;
+ padding: 2px;
+}
+
+.green{
+  color:#53A95E;
+}
+
+
+.inputContainer.withIcon{
+
+input,select{
+  width:85% !important;
+border-right:none;
+  border-top: 1px solid #b5b5b5;
+
+  border-left: 1px solid #b5b5b5;
+
+  border-bottom: 1px solid #b5b5b5;
+  outline:none;
+}
+
+  .icon{
+    display: block;
+    width: 15%;
+    float: right;
+    border: 1px solid #b5b5b5;
+    box-sizing: border-box;
+    height: 26px;
+    text-align: center;
+    padding-top: 7px;
+    border-left: none;
+  }
+}
